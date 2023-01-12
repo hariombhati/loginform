@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Luxurious+Roman&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&family=Luxurious+Roman&display=swap"
+        rel="stylesheet">
+    <title>MADBOY</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            color: white;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 53px;
+            bottom: 80%;
+            top: 8px;
+            line-height: 0px;
+            font-size: 30px;
+            overflow: none;
+
+        }
+
+        .mid {
+            /* border: 2px solid rgb(183, 221, 46); */
+
+            /*IMP** display:block is default set. display block is very imp if we want to set margin auto */
+            display: block;
+            /*IMP ** margin auto jab kam karega jab width set hogi */
+            width: 45%;
+            margin: 22px auto;
+
+
+
+
+        }
+
+        .right {
+            /* border: 2px solid rgb(25, 255, 64); */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 22px;
+        }
+
+        .navbar li {
+            /*IMP*** with the help of display: inline-block; you can easily set width and height */
+            display: inline-block;
+        }
+
+
+        .navbar li {
+            display: inline-block;
+            font-family: 'Balsamiq Sans', cursive;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 34px 23px;
+            font-size: 21px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(134, 93, 40);
+        }
+
+        .left img {
+            width: 79px;
+            height: 74px;
+            padding: 24px;
+            border-radius: 87px;
+        }
+
+        .logo {
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Balsamiq Sans', cursive;
+            color: salmon;
+        }
+
+        .btn {
+            position: sticky;
+            margin: 0px 15px;
+            padding: 3px 7px;
+            background-color: rgb(134, 93, 40);
+            color: sandybrown;
+            border-radius: 10px;
+            font-size: 17px;
+            cursor: pointer;
+            border: 3px solid rgb(126, 144, 112);
+            font-family: 'Balsamiq Sans', cursive;
+
+        }
+
+        .btn:hover {
+            background-color: rgb(117, 101, 79);
+            color: rgb(240, 196, 157);
+            border: 3px solid rgb(111, 138, 91);
+
+        }
+
+        body {
+            background-image: url(image/colin-lloyd-UOBgu1hEj0o-unsplash.jpg);
+            background-size: 1884px 1386px;
+            background-attachment: fixed;
+        }
+
+        .container {
+            /* border: 2px solid red; */
+            width: 24%;
+            margin: 91px 58px;
+            padding: 167px 54px;
+            border-radius: 10px;
+        }
+
+        .formgroup input {
+            text-align: center;
+            display: block;
+            width: 333px;
+            padding: 8px 4px;
+            border: 2px solid black;
+            margin: 7px auto;
+            border-radius: 10px;
+
+        }
+        .container button{
+            display: block;
+            width: 23%;
+            margin: auto;
+
+        }
+        h1{
+            text-align: center;
+        }
+        .container img{
+            width: 104%;
+    margin: -113px 3px;
+    display: block;
+
+        }
+        .info h1{
+            width: 35%;
+    height: 4%;
+    margin: 1% 43%;
+    padding: 24px 25px;
+    display: inline-grid;
+    position: absolute;
+    bottom: 67%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+
+            <img src="image/logo.jpg" alt="">
+            <div class="logo">
+                MADBOY
+            </div>
+
+        </div>
+        <div class="mid">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" class="active">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">LOCATION</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+
+                </ul>
+            </nav>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <img src="image/allec-gomes-2F3JgwHM0nU-unsplash.jpg" alt="">
+        <h1>PHOTO SHOOT CLASSES</h1>
+
+        <form action="nobackend.php">
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter Your Name">
+            </div>
+            <div class="formgroup">
+
+                <input type="text" name="" id="" placeholder="Age">
+            </div>
+
+
+
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Gender">
+
+            </div>
+
+
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Locality">
+
+            </div>
+
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="contect">
+            </div>
+
+
+
+            <button class="btn">SUBMIT</button>
+
+
+
+
+        </form>
+    </div><br>
+    <div class="info">
+        <h1>
+            LIFE ALWAYS GIVE YOU SECOND CHANCE ITS CALLED TOMORROW
+        </h1>
+    </div>
+
+
+
+
+</body>
+
+</html>
